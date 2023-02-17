@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+}
+
+#coming-soon-page {
+    height: 100vh;
+    background: url(../img/come.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comingsoon-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comingsoon-logo {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+    /* margin-left: 55px; */
+}
+
+.comingsoon-logo-img {
+    background: #fff;
+    width: 20vh;
+    height: 20vh;
+    padding: 10px;
+}
+
+.comingsoon-timer {
+    display: flex;
+    color: #fff;
+    width: 500px;
+    padding: 2rem 1rem;
+    text-align: center;
+    align-items: center;
+    background-color: #fff3;
+    backdrop-filter: blur(2px);
+    justify-content: space-evenly;
+    /* box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.2),
+                -1px -1px 8px rgba(255, 255, 255, 0.2); */
+}
+
+.comingsoon-timer-heading {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.comingsoon-timer-heading > span {
+    color: #fff;
+}
+
+.comingsoon-registration {
+    color: #ffa502;
+}
+
+.comingsoon-rest {
+    color: #fff;
+}

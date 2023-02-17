@@ -1,25 +1,10 @@
 const future = new Date("Mar 9, 2023 00:00:00").getTime();
 
-
-const day = 0;
-const hr = 0;
-const min = 0;
-const sec = 5;
-
-const days = day * 86400000;
-const hours = hr * 3600000;
-const minutes = min * 60000;
-const seconds = sec * 1000;
-const setTime = days + hours + minutes + seconds;
-const startTime = Date.now();
-const futureTime = startTime + setTime;
-
 const comingsTimer = setInterval(countDown);
 countDown();
 
 function countDown() {
     let present = Date.now();
-    // const remaining = futureTime - present;
     const remaining = future - present;
 
     // Timer
